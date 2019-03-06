@@ -25,7 +25,7 @@
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
         <a class="navbar-brand brand-logo" href="index.html">
-          <img src="images/logo.svg" alt="logo" />
+          <img src="images/logo.svg" alt="logo" width="50px" height="50px" />
         </a>
         <a class="navbar-brand brand-logo-mini" href="index.html">
           <img src="images/logo-mini.svg" alt="logo" />
@@ -33,19 +33,42 @@
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
+          <!--<li class="nav-item active">-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="mdi mdi-elevation-rise"></i>Tổng quan</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="mdi mdi-bookmark-plus-outline"></i>Hàng hóa</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="mdi mdi-bookmark-plus-outline"></i>Giao dịch</a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="mdi mdi-bookmark-plus-outline"></i>Đối tác</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="mdi mdi-bookmark-plus-outline"></i>Sổ quỹ</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="mdi mdi-elevation-rise"></i>Báo cáo</a>
+          </li>
+          <!--
           <li class="nav-item">
             <a href="#" class="nav-link">Schedule
               <span class="badge badge-primary ml-1">New</span>
             </a>
-          </li>
-          <li class="nav-item active">
-            <a href="#" class="nav-link">
-              <i class="mdi mdi-elevation-rise"></i>Reports</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="mdi mdi-bookmark-plus-outline"></i>Score</a>
-          </li>
+          </li> -->
         </ul>
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item dropdown">
@@ -202,14 +225,17 @@
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
+          <li style="text-align: center;">
+            <img src="images/logo/logoHutech.png" alt="logo" width="100px" height="100px" />
+          </li>
           <li class="nav-item nav-profile">
             <div class="nav-link">
               <div class="user-wrapper">
                 <div class="profile-image">
-                  <img src="images/faces/face1.jpg" alt="profile image">
+                  <img src="images/admin/admin.jpg" alt="profile image">
                 </div>
                 <div class="text-wrapper">
-                  <p class="profile-name">Richard V.Welsh</p>
+                  <p class="profile-name">Michel Nguyen</p>
                   <div>
                     <small class="designation text-muted">Manager</small>
                     <span class="status-indicator online"></span>
@@ -224,9 +250,99 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">
               <i class="menu-icon mdi mdi-television"></i>
-              <span class="menu-title">Dashboard</span>
+              <span class="menu-title">Tổng quan</span>
             </a>
           </li>
+            
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="menu-icon mdi mdi-archive"></i>
+              <span class="menu-title">Hàng hóa</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Danh mục</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Thiết lập giá</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kiểm kho</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic1" aria-expanded="false" aria-controls="ui-basic1">
+              <i class="menu-icon mdi mdi-repeat"></i>
+              <span class="menu-title">Giao dịch</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic1">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hóa đơn</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trả hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nhập hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trả hàng nhập</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Xuất hủy</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic2" aria-expanded="false" aria-controls="ui-basic2">
+              <i class="menu-icon mdi mdi-human-male"></i>
+              <span class="menu-title">Đối tác</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic2">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Khách hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nhà cung cấp</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/forms/basic_elements.html">
+              <i class="menu-icon mdi mdi-coin"></i>
+              <span class="menu-title">Sổ quỹ</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic3" aria-expanded="false" aria-controls="ui-basic3">
+              <i class="menu-icon mdi mdi-chart-areaspline"></i>
+              <span class="menu-title">Báo cáo</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic3">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Khách hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nhà cung cấp</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="menu-icon mdi mdi-content-copy"></i>

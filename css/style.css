@@ -13968,7 +13968,8 @@ input:focus {
             margin-right: auto; } }
       .navbar.default-layout .navbar-menu-wrapper .navbar-nav.header-links {
         height: 63px;
-        padding-left: 2%; }
+		/*FIX */
+        padding-left: 0; }
         .navbar.default-layout .navbar-menu-wrapper .navbar-nav.header-links .nav-item {
           margin: 0; }
           .navbar.default-layout .navbar-menu-wrapper .navbar-nav.header-links .nav-item .nav-link {
@@ -16114,7 +16115,7 @@ ul {
 
 .auth.theme-one .auto-form-wrapper {
   background: #ffffff;
-  padding: 40px 40px 10px;
+  padding: 5px 40px 10px;
   border-radius: 4px;
   box-shadow: 0 -25px 37.7px 11.3px rgba(8, 143, 220, 0.07); }
   .auth.theme-one .auto-form-wrapper .form-group .input-group {
