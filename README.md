@@ -1,4 +1,9 @@
+<h3>Login1: http://localhost:8080/HUTECH/pages/samples/login.html</h3>
+<h3>Login2: http://localhost:8080/HUTECH/pages/samples/login2.html</h3>
+<h3>De xuat: http://localhost:8080/HUTECH/pages/samples/dashboard.html</h3>
+<h3>Quan ly: http://localhost:8080/HUTECH/</h3>
 
+<!--
 <h1>StarAdmin-Free-Bootstrap-Admin-Template</h1>
 Star Admin is a free responsive admin template built with Bootstrap 4. The template has colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template.
 
@@ -78,3 +83,4 @@ After Gulp has been installed, follow the steps below to contribute.
 	Do you need a template with more features and functionalities? Get more with our collection of the premium template with more plugins, eye catching animations, UI components, and sample pages all fitting together with a high-quality design.
 Visit
   <a href="https://www.bootstrapdash.com" target="_blank">https://www.bootstrapdash.com</a> for more admin templates.
+-->
