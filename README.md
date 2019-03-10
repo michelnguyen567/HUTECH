@@ -1,6 +1,6 @@
 <h3>Login1: http://localhost:8080/HUTECH/pages/samples/login.html</h3>
 <h3>Login2: http://localhost:8080/HUTECH/pages/samples/login2.html</h3>
-<h3>De xuat: http://localhost:8080/HUTECH/pages/samples/dashboard.html</h3>
+<h3>De xuat: http://localhost:8080/HUTECH/thuky.html</h3>
 <h3>Quan ly: http://localhost:8080/HUTECH/</h3>
 
 <!--
