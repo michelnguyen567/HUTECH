@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        // dùng factory tạo user ảo để test import, export excel
+        factory(\App\User::class, 20)->create();
     }
 }
